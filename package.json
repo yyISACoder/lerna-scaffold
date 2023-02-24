@@ -1,0 +1,23 @@
+{
+  "name": "flow-chart",
+  "private": true,
+  "scripts": {
+    "core:dev": "lerna run dev --scope=flow-core",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged",
+    "commitlint": "commitlint -e"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "commitizen": "^4.3.0",
+    "commitlint": "^17.4.4",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "lerna": "^6.4.0",
+    "lint-staged": "^13.1.2",
+    "typescript": "^4.9.5"
+  }
+}
